@@ -36,10 +36,8 @@ json-server --watch db.json
 ```
 - json server is critical in running the app and shouldnt  be iterupted under any circumstances
 
-In **Terminal 2** (frontend):
-```bash
-live-server
-```
+In **click on html file**
+- send it : run the html file using live server
 
 ## Running the App 🚀
 
