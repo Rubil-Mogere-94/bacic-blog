@@ -30,7 +30,7 @@ npm install -g json-server@0.17.4 live-server
 
 3. **Start the development servers**:
 
-(a) **Terminal 1** (backend):
+(a) **Terminal** (backend):
 ```bash
 json-server --watch db.json 
 ```
