@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Post Manager</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>My Blog</h1>
+        
+        <div class="content">
+            <div id="post-list" class="post-list">
+                <!-- Post titles will be displayed here -->
+            </div>
+            
+            <div id="post-detail" class="post-detail">
+                <!-- Post details will be displayed here -->
+                <p>Select a post to view details</p>
+            </div>
+        </div>
+        
+        <div class="forms">
+            <form id="new-post-form">
+                <h3>Add New Post</h3>
+                <label for="title">Title:</label>
+                <input type="text" id="title" name="title" required>
+                
+                <label for="content">Content:</label>
+                <textarea id="content" name="content" rows="4" required></textarea>
+                
+                <label for="author">Author:</label>
+                <input type="text" id="author" name="author" required>
+                
+                <label for="image">Image URL:</label>
+                <input type="text" id="image" name="image">
+                
+                <button type="submit">Create Post</button>
+            </form>
+            
+            <form id="edit-post-form" class="hidden">
+                <h3>Update Post</h3>
+                <input type="hidden" id="edit-id">
+                
+                <label for="edit-title">Title:</label>
+                <input type="text" id="edit-title" name="title" required>
+                
+                <label for="edit-content">Content:</label>
+                <textarea id="edit-content" name="content" rows="4" required></textarea>
+                
+                <label for="edit-author">Author:</label>
+                <input type="text" id="edit-author" name="author" required>
+                
+                <label for="edit-image">Image URL:</label>
+                <input type="text" id="edit-image" name="image">
+                
+                <button type="submit">Update Post</button>
+                <button type="button" id="cancel-edit">Cancel</button>
+            </form>
+        </div>
+    </div>
+    
+    <script src="src/index.js"></script>
+</body>
+</html>

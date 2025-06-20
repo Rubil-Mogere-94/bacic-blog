@@ -1,0 +1,32 @@
+{
+  "posts": [
+    {
+      "id": 2,
+      "title": "weather forecast",
+      "content": "heavy rains are often accompanied by servere drought .i reccon we will have proper sunshine late this year\n",
+      "author": "DR weather man",
+      "image": "https://images.pexels.com/photos/674010/pexels-photo-674010.jpeg"
+    },
+    {
+      "title": "The holiday",
+      "content": "whats more rlaxing than taking a holiday near the  lake. breath taking view, no people around .must be nice",
+      "author": "RB",
+      "image": "https://images.pexels.com/photos/206359/pexels-photo-206359.jpeg",
+      "id": 3
+    },
+    {
+      "title": "plants",
+      "content": "plants are the heart of mother nature. without plants, earth would look like mars or other planets. ",
+      "author": "Rubil94",
+      "image": "https://images.pexels.com/photos/1319750/pexels-photo-1319750.jpeg",
+      "id": 4
+    },
+    {
+      "title": "Eiffel Tower",
+      "content": "what a beutiful tower",
+      "author": "moghe",
+      "image": "https://images.pexels.com/photos/1461974/pexels-photo-1461974.jpeg",
+      "id": 5
+    }
+  ]
+}
