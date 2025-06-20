@@ -30,13 +30,13 @@ npm install -g json-server@0.17.4 live-server
 
 3. **Start the development servers**:
 
-In **Terminal 1** (backend):
+(a) **Terminal 1** (backend):
 ```bash
 json-server --watch db.json 
 ```
 - json server is critical in running the app and shouldnt  be iterupted under any circumstances
 
-In **click on html file**
+(b) **click on html file**
 - send it : run the html file using live server
 
 ## Running the App 🚀
