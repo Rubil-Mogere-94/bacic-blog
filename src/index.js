@@ -19,7 +19,7 @@ function displayPosts() {
                 postList.appendChild(postItem);
             });
             
-            // Advanced: Display first post details on page load
+            //  Display first post details on page load
             if (posts.length > 0) {
                 displayPostDetails(posts[0]);
             }
@@ -67,7 +67,7 @@ function displayPostDetails(post) {
         </div>
     `;
     
-    // Advanced: Set up edit and delete buttons
+    //  Set up edit and delete buttons
     document.getElementById('edit-post').addEventListener('click', () => showEditForm(post));
     document.getElementById('delete-post').addEventListener('click', () => deletePost(post.id));
 }
@@ -103,14 +103,22 @@ function addNewPostListener() {
             // Clear the form
             form.reset();
             
-            // Advanced: Display the new post details
+            //  Display the new post details
             displayPostDetails(post);
         })
         .catch(error => console.error('Error creating post:', error));
     });
 }
 
-// Advanced Deliverables
+// edit post functionality
+// Core Deliverable 4: Edit post
+// This function sets up the edit form and handles the submission of the edited post.
+// It listens for the form submission, sends a PATCH request to update the post,
+// and updates the post in the list and details view accordingly.
+// It also provides a cancel button to hide the edit form without saving changes.
+// The function is called when the edit button is clicked on a post's details view.
+// It uses the Fetch API to communicate with the backend server and update the post data.
+// The edit form is initially hidden and is displayed when the user clicks the edit button.
 function setupEditForm() {
     const editForm = document.getElementById('edit-post-form');
     const cancelButton = document.getElementById('cancel-edit');
@@ -136,7 +144,7 @@ function setupEditForm() {
         })
         .then(response => response.json())
         .then(updatedPost => {
-            // Update the post in the list
+            // Update the post list         
             const postItem = document.querySelector(`.post-item[data-id="${postId}"]`);
             if (postItem) {
                 postItem.querySelector('h3').textContent = updatedPost.title;

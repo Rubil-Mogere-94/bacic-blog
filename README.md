@@ -2,11 +2,11 @@
 
 ## Features ✨
 
-- **CRUD Operations**: Full Create, Read, Update, Delete functionality
-- **Stunning UI**: Premium animations, gradients, and micro-interactions
-- **Responsive Design**: Works flawlessly on all devices
-- **Real API**: Powered by json-server with persistent data
-- **Advanced Features**: Image support, instant search, animations
+- **CRUD**: Full Create, Read, Update, Delete functionality
+- **UI**: Premium animations, gradients, and micro-interactions
+- **Responsive**: Works flawlessly on all devices
+- **API**: Powered by json-server with persistent data
+- **Features**: Image support, instant search, animations
 - **Developer Friendly**: Clean code structure with modern JavaScript
 
 ## Installation 🛠️
